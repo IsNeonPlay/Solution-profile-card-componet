@@ -11,9 +11,9 @@ Un fondo bastante interesante, el cual consta de dos imagenes diferentes y acomo
 
 Usando :
 
-`widht` y `heigth` para controlar sus tamaños.
+- `widht` y `heigth` para controlar sus tamaños.
 
-`position: fixed;`  para que no haya scroll ni queden cortadas las imagenes y de el efecto de que es el fondo.
+- `position: fixed;`  para que no haya scroll ni queden cortadas las imagenes y de el efecto de que es el fondo.
 
 He usado dos `@media` para ajustar los tamaños unicamente de las dos imagenes de hacen de fondo.
 
@@ -25,9 +25,9 @@ A very interesting background, which consists of two different images and accomm
 
 Wearing :
 
-`widht` and `heigth` to control their sizes.
+- `widht` and `heigth` to control their sizes.
 
-`position: fixed;` so that there is no scrolling or the images are cut and the effect is that it is the background.
+- `position: fixed;` so that there is no scrolling or the images are cut and the effect is that it is the background.
 
 
 I've used two `@media` to adjust the sizes of just the two background images.
