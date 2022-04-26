@@ -1,0 +1,40 @@
+@media screen and (min-width: 1200px) {
+
+  /******** Background MOBILE ********/
+  .pattern {
+    width: 100vw;
+    height: 100vw;
+  }
+  .bg-top { 
+    bottom: 40vh;
+    right: 80vh;
+  }
+  .bg-bottom {
+    top: 35vh;
+    left: 80vh; 
+  }
+
+  /*************** MAIN CARD ***************/
+  .card {
+    max-width: 350px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  /******** Background MOBILE ********/
+  .pattern {
+    width: 70vw;
+    height: 70vw;
+  }
+  .bg-top {
+    bottom: 40vh;
+    right: 100vh;
+  }
+  .bg-bottom {
+    top: 40vh;
+    left: 100vh; 
+  }
+
+}

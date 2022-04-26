@@ -1,0 +1,117 @@
+/*************** GENERAL STYLES ***************/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  --BG-Color: hsl(185, 75%, 39%);
+  --BG-Card-Color: rgb(245, 245, 245);
+  --Border-Card: 1em;
+  --Name-and-Stats-Color: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: var(--BG-Color);
+  font-family: 'Kumbh Sans', sans-serif;
+  display: grid; 
+  place-items: center;
+  min-height: 100vh;
+}
+/******** Background MOBILE ********/
+.pattern {
+  width: 200vw;
+  height: 230vw;
+  position: fixed;
+  z-index: -1; 
+}
+.bg-top { 
+  bottom: 55vh;
+  right: 15vh;
+}
+.bg-bottom {
+  top: 55vh;
+  left: 15vh; 
+}
+
+/*************** MAIN CARD ***************/
+.card {
+  margin-top: 100px;
+  max-width: 330px;
+  height: 370px;
+  background-color: var(--BG-Card-Color);
+  border-radius: var(--Border-Card);
+  box-shadow: 0 10px 50px -5px var(--Dark-grayish-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/******** Card Imgs ********/
+.card__imgs {
+  width: 100%;
+  max-height: 190px;
+}
+.card__imgs__BG {
+  width: 100%;
+  height: 140px;
+}
+.card__imgs__BG:first-of-type {
+  border-radius: var(--Border-Card) var(--Border-Card) 0 0;
+}
+.card__imgs__avatar {
+  border: 5px solid var(--BG-Card-Color);
+  border-radius: 50%;
+  position: relative;
+  bottom: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/******** Card Description ********/
+.card__desc {
+  padding: 26px 0;
+  border-bottom: .2px solid hsla(0, 0%, 59%, 0.2);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.card__desc__name {
+  font-size: 18px;
+}
+#age {
+  padding-left: 5px;
+  color: var(--Dark-gray);
+}
+.card__desc__city {
+  padding-top: 5px;
+  font-size: 15px;
+  color: var(--Dark-gray);
+}
+/******** Card Stats ********/
+.card__stats {
+  padding: 20px 15px;
+  display: flex;
+  text-align: center;
+  gap: 50px;
+}
+.type-stat {
+  padding-top: 2px;
+  font-size: 10px;
+  color: var(--Dark-grayish-blue);
+  list-style: none;
+  letter-spacing: 2px;
+}
+
+/*************** FOOTER ***************/
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
